@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #ecedef;
+}
+
+#container {
+    width: 720px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 50px 40px;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.time {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 800;
+}
+
+.box {
+    float: left;
+    margin: 0 10px;
+    width: 160px;
+    text-align: center;
+}
+
+.title {
+    letter-spacing: 4px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.head {
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
