@@ -1,4 +1,4 @@
-        var countDownDate = new Date("July 5, 2019 12:00:00").getTime();
+        var countDownDate = new Date("October 1, 2019 12:20:00").getTime();
         var x=setInterval(function(){
             var time = new Date().getTime();
             var timeleft = countDownDate - time;
@@ -16,13 +16,13 @@
             var currentMonth = ang.getMonth();
             var currentDate = ang.getDate();
             var currentHour = ang.getHours();
-            if (currentDate == 5 && currentMonth == 6 && currentHour >= 12){
+            if (currentDate == 1 && currentMonth == 9 && currentHour >= 13){
                 window.location="fin.html";
             }
-            else if (currentMonth == 6 && currentDate > 5){
+            else if (currentMonth == 9 && currentDate > 1){
                 window.location="fin.html";
             }
-            else if (currentMonth > 6) {
+            else if (currentMonth > 9) {
                 window.location="fin.html";
             }
             document.getElementById("counter").innerHTML = '<div class="box time">' + days + '</div><div class="box time">' + hours + '</div><div class="box time">' + minutes + '</div><div class="box time">' + seconds + '</div>';
