@@ -1,4 +1,4 @@
-        var countDownDate = new Date("October 1, 2019 12:20:00").getTime();
+        var countDownDate = new Date("February 23, 2020 00:00:00").getTime();
         var x=setInterval(function(){
             var time = new Date().getTime();
             var timeleft = countDownDate - time;
